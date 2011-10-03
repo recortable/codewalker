@@ -1,6 +1,29 @@
+## PROJECT GENERAL
 *.gem
 .bundle
 Gemfile.lock
 pkg/*
+
+## PROJECT SPECIFIC
+spec/support/output
+spec/tmp-generator/
+.sass-cache
+
+
+## RubyMine
 .idea
 
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp

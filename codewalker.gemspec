@@ -12,7 +12,12 @@ Gem::Specification.new do |s|
   s.description = %q{codewalker generates a full static site using resources from your source code.}
 
   s.rubyforge_project = "codewalker"
+
+  # RUNTIME DEPENDENCIES
   s.add_dependency "sinatra"
+
+  # DEVELOPMENT DEPENDENCIES
+  s.add_development_dependency "rspec"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 
   # DEVELOPMENT DEPENDENCIES
   s.add_development_dependency "rspec"
+  s.add_development_dependency "cucumber"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

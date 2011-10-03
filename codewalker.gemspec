@@ -5,13 +5,14 @@ require "codewalker/version"
 Gem::Specification.new do |s|
   s.name        = "codewalker"
   s.version     = Codewalker::VERSION
-  s.authors     = ["Danigb"]
+  s.authors     = ["danigb"]
   s.email       = ["danigb@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{static site generation for ruby projects}
+  s.description = %q{codewalker generates a full static site using resources from your source code.}
 
   s.rubyforge_project = "codewalker"
+  s.add_dependency "sinatra"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
